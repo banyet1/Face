@@ -8,7 +8,6 @@ import multiprocessing
 import sys
 import itertools
 
-
 def print_result(filename, location):
     top, right, bottom, left = location
     print("{},{},{},{},{}".format(filename, top, right, bottom, left))
